@@ -1,0 +1,74 @@
+/* Nguyễn Hoàng Thái B2012141 */
+body {
+  background-color: #f1f5f9;
+  position: relative;
+  height: 100vh;
+  margin-top: 200px;
+}
+
+.body_main {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%); */
+  margin: 0 auto;
+  margin-top: 60px;
+  display: block;
+  border: 3px solid rgba(30, 25, 25, 0.593);
+  border-color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  font-size: 25px;
+}
+
+table {
+  font-family: (--title--font);
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 15%;
+  justify-items: center;
+}
+
+td {
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
+.input-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 70%;
+  height: 30px;
+  border-color: #ebebe0;
+  background-color: #f1f5f9;
+  color: black;
+}
+
+.body_main h1 {
+  margin: 20px 0;
+  color: black;
+}
+
+.button-dangky {
+  padding: 5px 30px;
+  margin: 30px 0;
+  color: black;
+  font-size: 30px;
+  border: 3px solid #ebebe0;
+  border-radius: 3px;
+  background-color: #ebebe033;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-dangky:hover {
+  background-color: blue;
+}
